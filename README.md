@@ -1,16 +1,8 @@
-# signup-form
-
 # The Odin Project - Submit Form attempt #
+## [Link to live demo](https://03tb.github.io/signup-form "Live Demo Link") ##
 
 My completed form looks like this
 ![My attempt](./images/Preview.png)
-
-## [Link to live demo](https://03tb.github.io/signup-form "Live Demo Link") ##
-
-
-Given the following image, I was tasked to replicate a similar sign up form.
-
-![The Odin Project Template](https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/sign-up-form.png)
 
 ## New Things Learnt ##
 
@@ -21,7 +13,7 @@ Given the following image, I was tasked to replicate a similar sign up form.
 ## Things to do to improve my attempt ##
 - [ ] Responsive styling
 - [ ] Adding more validation to the fields, currently only applied to the password.
-    -[ ] First name required
-    -[ ] Email required
-    -[ ] Phone number required (?)
-    -[ ] Adding RegEx for pattern validation
+    - [ ] First name required
+    - [ ] Email required
+    - [ ] Phone number required (?)
+    - [ ] Adding RegEx for pattern validation
