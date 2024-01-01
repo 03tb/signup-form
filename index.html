@@ -5,8 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <div id="container">
+        <div class="left-container">
+            <div class="logo"><span><img src="./images/odin-lined.png" alt="odin-logo" class="side-logo"></span>Escape</div>
+        </div>
+        <div class="right-container">
+            <div class="right-top">
+                <p>Are you feeling the burnout by the neon-lit streets, constant hustle, and relentless chaos of Night City? It's time to consider a reset and break free from the digital dystopia that has consumed your life. <br>Our Escape Program offers you a chance to leave behind the relentless grind of Night City and rediscover a world beyond the neon glow.</p>
+            </div>
+            <div class="right-mid">
+                <h1>Want to escape? </br>Register below.</h1>
+                <form action="#" class="form-container" method="get">
+                    <div class="form-row">
+                        <div class="input-grouping">
+                            <label for="fname">FIRST NAME</label>
+                            <input type="text" id="fname">
+                        </div>
+                        <div class="input-grouping">
+                            <label for="lname">LAST NAME</label>
+                            <input type="text" id="lname">
+                        </div>   
+                    </div>
+                    <div class="form-row">
+                        <div class="input-grouping">
+                            <label for="user-email">EMAIL</label>
+                            <input type="email" id="user-email" name="user-email" placeholder="you@example.com">
+                        </div>
+                        <div class="input-grouping">
+                            <label for="contact-number">PHONE NUMBER</label>
+                            <input type="tel" id="contact-number" pattern="">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="input-grouping">
+                            <label for="user-password" id="user-password-label">PASSWORD</label>
+                            <input type="password" name="user-password" id="user-password" minlength="8">
+                        </div>
+                        <div class="input-grouping">
+                            <label for="confirm-password" id="confirm-password-label">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirm-password" id="confirm-password" minlength="8">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="right-bottom">
+                <button type="submit" class="createBtn">Create Account</button>
+                <p>Already have an account? <span><a href="#">Log in</a></span></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
